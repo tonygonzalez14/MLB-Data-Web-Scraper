@@ -88,21 +88,21 @@ class MLB_GUI:
     def postion_name(self): # allocates player position
         if self.postion == "1":
             self.postion = "Pitcher"
-        if self.postion == "2":
+        elif self.postion == "2":
             self.postion = "Catcher"
-        if self.postion == "3":
+        elif self.postion == "3":
             self.postion = "First-Base"
-        if self.postion == "4":
+        elif self.postion == "4":
             self.postion = "Second-Base"
-        if self.postion == "5":
+        elif self.postion == "5":
             self.postion = "Third Base"
-        if self.postion == "6":
+        elif self.postion == "6":
             self.postion = "Shortstop"
-        if self.postion == "7":
+        elif self.postion == "7":
             self.postion = "Left Field"
-        if self.postion == "8":
+        elif self.postion == "8":
             self.postion = "Center Field"
-        if self.postion == "9":
+        elif self.postion == "9":
             self.postion = "Right Field"
         
     def player_info(self): # formats and prints all of chosen player's information
